@@ -1,0 +1,20 @@
+1.	Create the Executable:
+•	Navigate to the directory containing your Python script.
+•	Run the following command to create the executable:
+
+#Create a spec file
+pyinstaller example.py
+
+pyinstaller --onefile Nameofprogram.py 
+
+•	The --onefile flag tells PyInstaller to package everything into a single executable file.
+2.	Locate the Executable:
+•	Once the process completes, you'll find the stDandalone executable in the dist directory that PyInstaller creates.
+3.	Test the Executable:
+•	Run the executable to ensure it works correctly before distributing it.
+4.	Distribute the Application:
+•	You can now share the executable file with your wife. She can download it to her computer and run it without needing to install Python or any dependencies.
+5.	Considerations:
+•	If your script relies on additional data files, you might need to specify them with the --add-data option.
+•	The first time you run the executable on a new machine, it might take longer to start as it extracts the files.
+
